@@ -1,6 +1,7 @@
 /*------------------------------------*\
 #FONTS
 \*------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
 
 /*------------------------------------*\
 #Variables
@@ -36,7 +37,8 @@
 html {
     font-size: 16px;
     line-height: 1.5;
-    font-family: Helvetica, arial, sans-serif;
+    height: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
     color: var(--color-neutral-dark);
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
@@ -200,6 +202,7 @@ input::placeholder {
     color: var(--color-neutral-light);
 }
 
+
 /*------------------------------------*\
 #OBJECTS
 \*------------------------------------*/
@@ -294,6 +297,24 @@ input::placeholder {
     ---
     Website main logo
 */
+.c-app{
+    min-height: 100%;
+
+}
+.c-app__logo{
+    background-color: var(--color-neutral-dark);
+    width: 260px;
+}
+.c-app__topbar{
+
+}
+.c-app__sidebar{
+    background-color: var(--color-neutral);
+    width: 260px;
+}
+.c-app__main{
+
+}
 
 /*------------------------------------*\
 #UTILITIES
